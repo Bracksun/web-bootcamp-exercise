@@ -18,7 +18,7 @@ app.get("/dog", function(req, res) {
 app.get("/r/:subredditName/comments/:id/:title", function(req, res){
 	console.log(req.params);
 	var subreddit = req.params.subredditName;
-	res.send("WELCOME TO THE " + subreddit.toUpperCase() + "SUBREGISTER");
+	res.send("WELCOME TO THE " + subreddit.toUpperCase() + " SUBREGISTER");
 });
 
 
